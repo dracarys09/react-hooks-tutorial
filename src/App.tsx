@@ -1,12 +1,14 @@
 import "./App.css";
-import { UseMemoDemo } from "./components/UseMemoDemo";
+import { UseRefDemo2 } from "./components/UseRefDemo2";
 
 function App() {
   return (
     <div>
       {/* <UseStateDemo /> */}
       {/* <UseEffectDemo /> */}
-      <UseMemoDemo />
+      {/* <UseMemoDemo /> */}
+      {/* <UseRefDemo /> */}
+      <UseRefDemo2 />
     </div>
   );
 }
