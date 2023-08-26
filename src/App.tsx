@@ -1,4 +1,5 @@
 import "./App.css";
+import UseCallbackDemo from "./components/UseCallbackDemo";
 import { UseRefDemo2 } from "./components/UseRefDemo2";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
       {/* <UseEffectDemo /> */}
       {/* <UseMemoDemo /> */}
       {/* <UseRefDemo /> */}
-      <UseRefDemo2 />
+      {/* <UseRefDemo2 /> */}
+      <UseCallbackDemo />
     </div>
   );
 }
