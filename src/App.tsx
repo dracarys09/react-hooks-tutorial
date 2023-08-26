@@ -1,5 +1,4 @@
 import "./App.css";
-import { UseContextDemo } from "./components/UseContextDemo";
 
 function App() {
   return (
@@ -10,7 +9,8 @@ function App() {
       {/* <UseRefDemo /> */}
       {/* <UseRefDemo2 /> */}
       {/* <UseCallbackDemo /> */}
-      <UseContextDemo />
+      {/* <UseContextDemo /> */}
+      {/* <UseReducerDemo /> */}
     </div>
   );
 }
